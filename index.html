@@ -7,6 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+      <h1>Movie Database App</h1>
+      <input type="text" id="search" placeholder="Search" required>
+      <button id="search-btn">Search</button>
+
+    <div class="filter-section">
+        <label for="genre-select">Filter by Genre:</label>
+        <select id="genre-select">
+         <option value="">All</option>
+         <option value="28">Action</option>
+         <option value="18">Drama</option>
+         <option value="35">Comedy</option>
+         <option value="27">Thriller</option>
+         <option value="53">Horror</option>
+         <option value="378">Science Fiction</option>
+        </select>
+
+        <label for="year-select">Release Year:</label>
+        <select id="year-select">
+          <option value="">All</option>
+          <option value="2022">2022 or Later</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+        </select>
+
+        <label for="rating-select">Rating:</label>
+        <select id="rating-select">
+          <option value="">All</option>
+          <option value="8">Above 8</option>
+          <option value="7">Above 7</option>
+          <option value="6">Above 6</option>
+        </select>
+        
+    </div>
+      <div id="movie-list"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
