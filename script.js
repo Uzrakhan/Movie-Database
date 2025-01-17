@@ -6,6 +6,7 @@ const searchInput = document.getElementById('search');
 const searchBtn = document.getElementById('search-btn');
 
 const apiUrl = 'https://api.themoviedb.org/3/movie/popular';
+const genresApiUrl = 'https://api.themoviedb.org/3/genre/movie/list'
 const TMDB_API_KEY = '01a62047674fade0ecd7a6e2158cc945';
 const baseUrl = 'https://image.tmdb.org/t/p/w500';
 
