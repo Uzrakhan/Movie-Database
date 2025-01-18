@@ -67,7 +67,7 @@ function displayMovies(moviesToDisplay) {
         movieDiv.classList.add('movie');
         movieDiv.innerHTML = `
          <div class="movie-card">
-            <img src="${baseUrl}${movie.poster_path}" alt="${movie.title}" style="width: 100px; height: auto;">
+            <img src="${baseUrl}${movie.poster_path}" alt="${movie.title}" style="width: 150px; height: auto; border-radius: 5px">
             <h3>${movie.title}</h3>
             <p>Rating: ${movie.vote_average}</p>
             <p>Release Year: ${movie.release_date.slice(0,4)}</p>

@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: #111217;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -17,6 +17,64 @@ body{
     flex-direction: column;
     width: 95%;
     padding: 2vw;
+    margin-top: 2vw;
+    color: #E1E6F0;
+}
+
+.container h1{
+    color: #E1E6E2;
+}
+
+#search{
+    padding: 2vw 15vw;
+    width: 95%;
+    margin-top: 2vw;
+    background-color: #252833;
+    color: #8A94AD;
+    border: none;
+    border-radius: 5px;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+#search-btn{
+    background-color: black;
+    color: white;
+    padding: 5px 16px;
+    font-size: 1.5vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.filter-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+#genre-select{
+    background-color: #111217;
+    color: #E1E6F0;
+    
+}
+
+#year-select{
+    background-color: #111217;
+    color: #E1E6F0;
+    
+}
+
+#rating-select{
+    background-color: #111217;
+    color: #E1E6F0;
+    
 }
 
 #movie-list{
@@ -25,11 +83,13 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 3vw;
+    gap: 2.5vw;
     width: 100%;
     margin-left: 3vw;
     padding: 1vw;
     margin-top: 2vw;
+    border: 1px solid black;
+    color: #E1E6F0;
 }
 
 .movie-card{
